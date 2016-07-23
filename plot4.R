@@ -18,7 +18,7 @@ merge <- merge(x=NEI, y=SCC.coal, by='SCC')
 merge.sum <- aggregate(merge[, 'Emissions'], by=list(merge$year), sum)
 colnames(merge.sum) <- c('Year', 'Emissions')
 
-
+# Graphing
 png(filename='plot4.png')
 
 ggplot(data=merge.sum, aes(x=Year, y=Emissions/1000)) + 
