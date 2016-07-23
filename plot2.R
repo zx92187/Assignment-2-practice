@@ -1,6 +1,6 @@
 
 #######################################################
-# Exploratory Data Analysis - Proeject 2 - Question #1#
+# Exploratory Data Analysis - Proeject 2 - Question #2#
 #######################################################
 
 # Loading provided datasets - loading from my pre-set working directory by using the "setwd" commend
