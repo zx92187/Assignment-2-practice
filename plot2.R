@@ -14,7 +14,7 @@ NEI_sampling <- NEI[sample(nrow(NEI), size=5000, replace=F), ]
 MD <- subset(NEI, fips=='24510')
 
 
-# Generate the graph in the same directory as the source code
+# Graphing
 png(filename='plot2.png')
 
 barplot(tapply(X=MD$Emissions, INDEX=MD$year, FUN=sum), 
