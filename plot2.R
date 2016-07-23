@@ -1,4 +1,3 @@
-setwd("C:/Users/MIAO/Desktop/R directory")
 
 #######################################################
 # Exploratory Data Analysis - Proeject 2 - Question #1#
