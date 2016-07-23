@@ -27,7 +27,7 @@ CA.DF$City <- paste(rep('CA', 4))
 DF <- as.data.frame(rbind(MD.DF, CA.DF))
 
 
-
+# Graphing
 png('plot6.png')
 
 ggplot(data=DF, aes(x=Year, y=Emissions)) + 
