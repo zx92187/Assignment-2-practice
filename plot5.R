@@ -20,7 +20,7 @@ MD.onroad <- subset(NEI, fips == 24510 & type == 'ON-ROAD')
 MD.df <- aggregate(MD.onroad[, 'Emissions'], by=list(MD.onroad$year), sum)
 colnames(MD.df) <- c('Year', 'Emissions')
 
-
+# Graphing
 png('plot5.png')
 
 ggplot(data=MD.df, aes(x=Year, y=Emissions)) + 
